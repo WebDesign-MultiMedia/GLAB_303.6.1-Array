@@ -3,8 +3,10 @@
 public class Main {
     public static void main(String[] args) {
 
-        //Example 1
 
+        //Example 1
+        System.out.println(" ");
+        System.out.println("Example 1: ");
         int[] age = {12, 4, 5, 2, 5};
 
         System.out.println("Accessing Elements of an Array: ");
@@ -15,14 +17,26 @@ public class Main {
         System.out.println("Fifth El: " + age[4]);
 
 
+
         //Example 2
-        int[] ages = {29, 28, 25};
+        System.out.println(" ");
+        System.out.println("Example 2: ");
+        int[] ages = {29, 28, 25, 200};
 
         System.out.println("Using for loop:");
-        for (int i = 0; i < age.length; i++){
+        for (int i = 0; i < ages.length; i++){
             System.out.println(ages[i]);
         }
 
+
+        //Example 3
+        System.out.println(" ");
+        System.out.println("Example 3: ");
+        String[] names = {"New York", "Dallas", "Las Vegas", "Florida"};
+
+        for (String name : names){
+            System.out.println(name);
+        }
 
     }
 }
